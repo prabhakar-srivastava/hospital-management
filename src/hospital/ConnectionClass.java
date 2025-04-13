@@ -24,8 +24,7 @@ public class ConnectionClass {
       e.printStackTrace();
     }
   }
-
   public static void main(String[] args) {
-    new ConnectionClass();
+     new ConnectionClass();
   }
 }
