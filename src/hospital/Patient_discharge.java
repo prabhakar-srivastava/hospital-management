@@ -61,7 +61,7 @@ public class Patient_discharge extends JFrame{
 
         
         JLabel Rn = new JLabel();
-        Rn.setBounds(300, 80, 200, 30);
+        Rn.setBounds(300, 130, 200, 30);
         Rn.setForeground(Color.white);
         Rn.setFont(new java.awt.Font("Arial", 0, 16));
         p1.add(Rn);
@@ -74,7 +74,7 @@ public class Patient_discharge extends JFrame{
 
 
         JLabel IN = new JLabel();
-        IN.setBounds(300, 80, 200, 30);
+        IN.setBounds(300, 180, 200, 30);
         IN.setForeground(Color.white);
         IN.setFont(new java.awt.Font("Arial", 0, 16));
         p1.add(IN);
@@ -91,7 +91,7 @@ public class Patient_discharge extends JFrame{
         Date d = new Date(System.currentTimeMillis());
         System.out.println(d);
         JLabel OUT = new JLabel(d.toString());
-        OUT.setBounds(300, 80, 200, 30);
+        OUT.setBounds(300, 230, 200, 30);
         OUT.setForeground(Color.white);
         OUT.setFont(new java.awt.Font("Arial", 0, 16));
         p1.add(OUT);
